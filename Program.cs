@@ -41,7 +41,8 @@ class Program
 //
 //        foreach (string line in lines)
 //        {
-//            if (!line.Contains("Second"))
+
+//            if (!line.Contains("Second")) // this if statement is not necessary and I included it by accident. Only file.writeline is needed
 //            {
 //                file.WriteLine(line);
 //            }
